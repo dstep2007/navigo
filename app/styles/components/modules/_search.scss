@@ -149,8 +149,19 @@
     }
   }
 
+  tbody{
+    margin-top: 57px;
+    position: absolute;
+
+    td {
+    }
+  }
+
   thead {
     background-color: $likewhite;
+    position: fixed;
+    z-index: 99;
+    width:100%;
 
     tr {
       th {
