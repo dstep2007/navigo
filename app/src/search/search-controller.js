@@ -629,7 +629,7 @@ angular.module('voyager.search')
 
 					$scope.$emit('searchComplete',res.data);
 					_busy = false;
-					//usSpinnerService.stop('scroll-spinner');
+					usSpinnerService.stop('scroll-spinner');
 				});
 			}, function(res) {
 				_handleSearchError(res);
